@@ -1,0 +1,112 @@
+
+
+/* * {
+    border: 2px solid red;
+} */
+
+/* Index Home Page */
+h1 {
+    background-color: rgb(254, 205, 170);
+    font-size: 80px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.recipe-grid {
+    width: 800px;
+    background-color: rgb(71, 67, 80);
+    margin: auto;
+    padding: 10px;
+}
+
+.recipe-card {
+    display: block;
+    width: 90%;
+    height: 350px;
+    margin: 20px auto;
+    background-color: rgb(248, 255, 244);
+    padding: 20px;
+}
+
+.recipe-img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+.recipe-content {
+    display: inline-block;
+    width: 400px;
+}
+.recipe-meal-title {
+    background-color: rgb(252, 255, 235);
+    font-size: 35px;
+    width: 90%;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.recipe-description {
+    margin: 15px 40px;
+    padding: 0px;
+}
+.recipe-name-link {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Recipe Pages */
+h2 {
+    background-color: rgb(254, 205, 170);
+    font-size: 35px;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.direction-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+.directions-card {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(71, 67, 80);
+    padding: 20px;
+}
+.list-card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(252, 255, 235);
+    margin: 20px;
+    padding: 15px;
+}
+
+.list-header {
+    display: block;
+    /* padding: 10px; */
+}
+ol,
+ul {
+    /* background-color: darkgoldenrod; */
+    font-size: 20px;
+}
+p {
+    font-size: 30px;
+}
